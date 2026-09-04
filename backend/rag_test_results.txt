@@ -1,0 +1,124 @@
+
+============================================================
+QUESTION: What is the role of the Prime Minister?
+============================================================
+{
+    "answer": "Prime Minister The Prime Minister is the leader of the Government. He or she is the leader of the party that wins the most seats at a general election. After a general election the monarch calls upon the leader of the largest party to form the Government. The Prime Minister chooses the other Members of the Government and has a residence and offices at 10 Downing Street. About Parliament: Government and Opposition roles Research Briefing: Prime Ministers (since 1721) Research Briefing: Parliamentary Private Secretaries to Prime Ministers since 1906 Related glossary term: Cabinet Related glossary term: Government 10 Downing Street - website of the Prime Minister [external site] Find out more Who works in Parliament? Source: Prime minister, UK Parliament Glossary",
+    "sources": [
+        {
+            "title": "Prime Minister",
+            "source": "parliament_websearch",
+            "type": "Parliamentary Web Search Result",
+            "date": "",
+            "url": "https://www.parliament.uk/site-information/glossary/prime-minister/?id=32625",
+            "record_id": "parliament_websearch_7481a3ca59dba03d5aae",
+            "snippet": "Prime Minister Selected letter P The Prime Minister is the leader of the Government. He or she is the leader of the party that wins the most seats at a general election. After a general election the monarch calls upon the leader of the largest party to form the Government.",
+            "is_sample": false
+        }
+    ],
+    "evidence_count": 1,
+    "is_sample_data": false,
+    "data_status": {
+        "live_documents": 433,
+        "sample_documents": 0,
+        "total_documents": 433,
+        "data_source": "live_api",
+        "engine_data_source": "live_api"
+    },
+    "generation_status": "unknown",
+    "retrieval_status": "unknown",
+    "timestamp": "2026-09-04T06:57:16.355828+00:00"
+}
+
+============================================================
+QUESTION: What is the Budget?
+============================================================
+{
+    "answer": "What is the Budget? Question: The Chancellor will deliver the Budget on 26 November 2025 and the government will later introduce a Finance Bill to implement it. This Insight looks at what the Budget is, and an overview of what happens during and following the event. Overview of the Budget The Budget is a statement made by the Chancellor to MPs in the House of Commons , presenting the government\u2019s plans for the economy, including changes to taxation and spending. The economic and fiscal outlook is published by the Office for Budget Responsibility (OBR) on the same day as the Budget. Source: What is the budget?, UK Parliament",
+    "sources": [
+        {
+            "title": "What is the Budget?",
+            "source": "parliament_websearch",
+            "type": "Parliamentary Web Search Result",
+            "date": "",
+            "url": "https://commonslibrary.parliament.uk/what-is-the-budget/",
+            "record_id": "parliament_websearch_86c09efd3d04dd798c25",
+            "snippet": "The Chancellor will deliver the Budget on 26 November 2025 and the government will later introduce a Finance Bill to implement it. This Insight looks at what the Budget is, and an overview of what happens during and following the event.",
+            "is_sample": false
+        }
+    ],
+    "evidence_count": 1,
+    "is_sample_data": false,
+    "data_status": {
+        "live_documents": 433,
+        "sample_documents": 0,
+        "total_documents": 433,
+        "data_source": "live_api",
+        "engine_data_source": "live_api"
+    },
+    "generation_status": "unknown",
+    "retrieval_status": "unknown",
+    "timestamp": "2026-09-04T06:57:17.136187+00:00"
+}
+
+============================================================
+QUESTION: What is net zero?
+============================================================
+{
+    "answer": "Behaviour change and reaching net zero Question: On 16 September 2021, the House of Lords is scheduled to debate the following: Baroness Blackstone to move that this House takes note of the role of behaviour change in helping the United Kingdom to reach net zero carbon emissions by 2050, as set out in the report by the Climate Change Committee \u2018Progress in Reducing Emissions: 2021 Progress Report to Parliament\u2019, published on 24 June 2021; and of the case for a public engagement strategy to facilitate this. What is the net zero carbon emissions target? In June 2019, the Government committed the UK to achieving a 100% reduction of greenhouse gas emissions by 2050 (from 1990 levels). This is referred to as the net zero target. The net zero target stemmed from a recommendation made by the Climate Change Committee (CCC) in May 2019. Source: Behaviour change and reaching net zero, UK Parliament",
+    "sources": [
+        {
+            "title": "Behaviour change and reaching net zero",
+            "source": "parliament_websearch",
+            "type": "Parliamentary Web Search Result",
+            "date": "",
+            "url": "https://lordslibrary.parliament.uk/behaviour-change-and-reaching-net-zero/",
+            "record_id": "parliament_websearch_082b0ffdda43cb5cd60d",
+            "snippet": "On 16 September 2021, the House of Lords is scheduled to debate the following: Baroness Blackstone to move that this House takes note of the role of behaviour change in helping the United Kingdom to reach net zero carbon emissions by 2050, as set out in the report by the Climate Change Committee \u2018Progress in Reducing Emissions: 2021 Progress Report...",
+            "is_sample": false
+        }
+    ],
+    "evidence_count": 1,
+    "is_sample_data": false,
+    "data_status": {
+        "live_documents": 433,
+        "sample_documents": 0,
+        "total_documents": 433,
+        "data_source": "live_api",
+        "engine_data_source": "live_api"
+    },
+    "generation_status": "unknown",
+    "retrieval_status": "unknown",
+    "timestamp": "2026-09-04T06:57:17.796151+00:00"
+}
+
+============================================================
+QUESTION: What is Hansard?
+============================================================
+{
+    "answer": "NHS Continuing Healthcare - Hansard - UK Parliament Question: To ask His Majesty\u2019s Government what assessment they have made of the effectiveness of NHS Continuing Healthcare in supporting people with long-term complex health needs living in their own homes or in community facilities. Type: Parliamentary Web Search Result Source: Nhs continuing healthcare - hansard - uk parliament, UK Parliament",
+    "sources": [
+        {
+            "title": "NHS Continuing Healthcare - Hansard - UK Parliament",
+            "source": "parliament_websearch",
+            "type": "Parliamentary Web Search Result",
+            "date": "",
+            "url": "https://hansard.parliament.uk/Lords/2024-09-02/debates/F5AA429C-4042-4840-A6B1-6DDB1538AC4C/details",
+            "record_id": "parliament_websearch_e67642b0b754c10841b5",
+            "snippet": "To ask His Majesty\u2019s Government what assessment they have made of the effectiveness of NHS Continuing Healthcare in supporting people with long-term complex health needs living in their own homes or in community facilities.",
+            "is_sample": false
+        }
+    ],
+    "evidence_count": 1,
+    "is_sample_data": false,
+    "data_status": {
+        "live_documents": 433,
+        "sample_documents": 0,
+        "total_documents": 433,
+        "data_source": "live_api",
+        "engine_data_source": "live_api"
+    },
+    "generation_status": "unknown",
+    "retrieval_status": "unknown",
+    "timestamp": "2026-09-04T06:57:18.406895+00:00"
+}

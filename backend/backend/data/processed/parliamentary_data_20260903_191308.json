@@ -1,0 +1,287 @@
+[
+  {
+    "id": "hansard_001",
+    "title": "Prime Minister's Questions",
+    "date": "2024-09-15",
+    "speaker": "Rishi Sunak",
+    "content": "The government is committed to economic growth and lowering inflation. We have made significant progress on the cost of living crisis and are investing in public services. The economy is now in a stronger position than it was a year ago.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-09-15/pmqs",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_002",
+    "title": "Budget Debate",
+    "date": "2024-09-10",
+    "speaker": "Jeremy Hunt",
+    "content": "Today I present a budget for long-term growth. We are cutting national insurance, supporting business investment, and taking decisive action to reduce inflation. This is a budget that rewards work and promotes prosperity.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-09-10/budget",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_003",
+    "title": "Climate Change Debate",
+    "date": "2024-09-05",
+    "speaker": "Grant Shapps",
+    "content": "The UK is a world leader in renewable energy. We are investing in offshore wind, nuclear power, and carbon capture. Our goal is to achieve net zero by 2050 while ensuring energy security for British families.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-09-05/climate",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_004",
+    "title": "Health and Social Care Debate",
+    "date": "2024-09-01",
+    "speaker": "Victoria Atkins",
+    "content": "The NHS is our priority. We are investing £2.4 billion in modernising hospitals and increasing NHS capacity. We're also expanding the social care workforce to ensure everyone gets the care they deserve.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-09-01/health",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_005",
+    "title": "Education Reform Debate",
+    "date": "2024-08-28",
+    "speaker": "Gillian Keegan",
+    "content": "Education is the key to opportunity. We are transforming our education system with new curriculum reforms, investment in teacher training, and a focus on skills for the future economy. Every child deserves a world-class education.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-08-28/education",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_006",
+    "title": "Migration and Border Security",
+    "date": "2024-08-20",
+    "speaker": "James Cleverly",
+    "content": "We have a clear plan to stop the boats and secure our borders. The Rwanda partnership is working, and illegal migration has fallen significantly. We are taking back control of our immigration system.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-08-20/migration",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_007",
+    "title": "Housing and Planning Reform",
+    "date": "2024-08-15",
+    "speaker": "Michael Gove",
+    "content": "We are building the homes Britain needs. Our planning reforms will deliver 1 million new homes, support first-time buyers, and regenerate our town centres. Everyone deserves a secure and affordable home.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-08-15/housing",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_008",
+    "title": "Foreign Policy Debate",
+    "date": "2024-08-10",
+    "speaker": "David Lammy",
+    "content": "The UK is rebuilding trust with European partners through the EU-UK Cooperation Agreement on security and law enforcement. We are committed to deepening our partnership on defence, security, and climate change.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-08-10/foreign",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_009",
+    "title": "Defence and Security",
+    "date": "2024-08-05",
+    "speaker": "Ben Wallace",
+    "content": "The UK remains committed to NATO and collective defence. We are increasing defence spending to 2.5% of GDP and investing in new technologies to protect our national security.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-08-05/defence",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_010",
+    "title": "Transport Infrastructure",
+    "date": "2024-07-30",
+    "speaker": "Mark Harper",
+    "content": "We are investing £36 billion in transport infrastructure, including rail, roads, and electric vehicle charging. HS2 will transform connectivity across the UK, and we are committed to sustainable transport.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-07-30/transport",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "leg_001",
+    "title": "Data Protection Act 2018",
+    "year": "2018",
+    "summary": "The Data Protection Act 2018 is the UK's implementation of GDPR. It governs how personal data is processed and protects individual privacy rights.",
+    "url": "https://www.legislation.gov.uk/ukpga/2018/12",
+    "source": "legislation",
+    "type": "legislation"
+  },
+  {
+    "id": "leg_002",
+    "title": "Climate Change Act 2008",
+    "year": "2008",
+    "summary": "The Climate Change Act 2008 sets legally binding targets for reducing greenhouse gas emissions. It requires the UK to achieve net zero emissions by 2050.",
+    "url": "https://www.legislation.gov.uk/ukpga/2008/27",
+    "source": "legislation",
+    "type": "legislation"
+  },
+  {
+    "id": "leg_003",
+    "title": "Equality Act 2010",
+    "year": "2010",
+    "summary": "The Equality Act 2010 consolidates anti-discrimination laws in the UK. It protects people from discrimination based on age, disability, gender, race, religion, sex, and sexual orientation.",
+    "url": "https://www.legislation.gov.uk/ukpga/2010/15",
+    "source": "legislation",
+    "type": "legislation"
+  },
+  {
+    "id": "leg_004",
+    "title": "Human Rights Act 1998",
+    "year": "1998",
+    "summary": "The Human Rights Act 1998 incorporates the European Convention on Human Rights into UK law. It protects fundamental rights including the right to life, freedom of expression, and fair trial.",
+    "url": "https://www.legislation.gov.uk/ukpga/1998/42",
+    "source": "legislation",
+    "type": "legislation"
+  },
+  {
+    "id": "leg_005",
+    "title": "European Union (Withdrawal) Act 2018",
+    "year": "2018",
+    "summary": "The European Union (Withdrawal) Act 2018 provides for the UK's withdrawal from the European Union, incorporating EU law into UK law.",
+    "url": "https://www.legislation.gov.uk/ukpga/2018/16",
+    "source": "legislation",
+    "type": "legislation"
+  },
+  {
+    "id": "leg_006",
+    "title": "Immigration and Asylum Act 1999",
+    "year": "1999",
+    "summary": "The Immigration and Asylum Act 1999 sets out the UK's immigration framework, including asylum procedures and support for asylum seekers.",
+    "url": "https://www.legislation.gov.uk/ukpga/1999/33",
+    "source": "legislation",
+    "type": "legislation"
+  },
+  {
+    "id": "pq_001",
+    "date": "2024-09-01",
+    "mp": "Keir Starmer",
+    "department": "Cabinet Office",
+    "question": "What steps is the government taking to ensure the UK remains a global leader in artificial intelligence regulation?",
+    "answer": "The UK is committed to developing a pro-innovation regulatory framework for AI. We are investing £1.4 billion in the AI sector and have established the AI Safety Institute to lead global research on AI safety.",
+    "answer_by": "Cabinet Office",
+    "source": "parliamentary_questions",
+    "type": "question"
+  },
+  {
+    "id": "pq_002",
+    "date": "2024-09-05",
+    "mp": "David Lammy",
+    "department": "Foreign Office",
+    "question": "What actions are being taken to strengthen diplomatic relations with European partners?",
+    "answer": "The UK is rebuilding trust with European partners through the EU-UK Cooperation Agreement. We are committed to deepening our partnership on defence, security, and climate change.",
+    "answer_by": "Foreign Office",
+    "source": "parliamentary_questions",
+    "type": "question"
+  },
+  {
+    "id": "pq_003",
+    "date": "2024-09-10",
+    "mp": "Rachel Reeves",
+    "department": "Treasury",
+    "question": "What measures are being implemented to support economic growth and reduce the cost of living?",
+    "answer": "The government is implementing a comprehensive growth plan including reducing national insurance, investing in infrastructure, and supporting small businesses.",
+    "answer_by": "Treasury",
+    "source": "parliamentary_questions",
+    "type": "question"
+  },
+  {
+    "id": "pq_004",
+    "date": "2024-09-12",
+    "mp": "Yvette Cooper",
+    "department": "Home Office",
+    "question": "What actions are being taken to address illegal migration and small boat crossings?",
+    "answer": "The government is implementing a comprehensive approach including the Rwanda partnership, increased patrols, and bilateral agreements with France to reduce small boat crossings.",
+    "answer_by": "Home Office",
+    "source": "parliamentary_questions",
+    "type": "question"
+  },
+  {
+    "id": "pq_005",
+    "date": "2024-09-15",
+    "mp": "Ed Miliband",
+    "department": "Energy Security and Net Zero",
+    "question": "What progress has been made on the UK's net zero commitments?",
+    "answer": "The UK has made significant progress, with emissions reduced by 50% since 1990. We are investing £30 billion in green technology, creating high-skilled jobs, and leading the world in clean energy.",
+    "answer_by": "Energy Security and Net Zero",
+    "source": "parliamentary_questions",
+    "type": "question"
+  },
+  {
+    "id": "com_001",
+    "title": "The Future of AI Regulation",
+    "committee": "Science and Technology Committee",
+    "date": "2024-08-15",
+    "summary": "The report examines the UK's approach to AI regulation, recommending a balanced framework that promotes innovation while ensuring safety and accountability.",
+    "content": "The Science and Technology Committee report on AI regulation recommends a principles-based approach that adapts to rapid technological change. Key recommendations include establishing an AI Safety Institute, developing sector-specific guidelines, and ensuring international cooperation.",
+    "url": "https://committees.parliament.uk/publications/12345",
+    "source": "select_committee",
+    "type": "report"
+  },
+  {
+    "id": "com_002",
+    "title": "Net Zero: Challenges and Opportunities",
+    "committee": "Environmental Audit Committee",
+    "date": "2024-07-20",
+    "summary": "This report assesses the UK's progress towards net zero emissions, identifying key challenges and opportunities for accelerating the transition.",
+    "content": "The Environmental Audit Committee report on net zero finds that while progress has been made, significant acceleration is needed. Recommendations include increased investment in renewable energy, stronger carbon pricing mechanisms, and enhanced public engagement.",
+    "url": "https://committees.parliament.uk/publications/12346",
+    "source": "select_committee",
+    "type": "report"
+  },
+  {
+    "id": "wp_001",
+    "title": "AI Regulation: A Pro-Innovation Approach",
+    "department": "Department for Science, Innovation and Technology",
+    "date": "2024-07-01",
+    "summary": "This white paper sets out the UK's approach to regulating AI, focusing on innovation, safety, and international leadership.",
+    "content": "The UK government's approach to AI regulation is based on five core principles: safety, transparency, fairness, accountability, and contestability. The framework is designed to be agile and adaptable, with a focus on supporting innovation while protecting the public.",
+    "url": "https://www.gov.uk/government/publications/ai-regulation",
+    "source": "white_paper",
+    "type": "policy"
+  },
+  {
+    "id": "wp_002",
+    "title": "Energy Security Strategy",
+    "department": "Department for Energy Security and Net Zero",
+    "date": "2024-06-15",
+    "summary": "This strategy outlines the UK's plan to enhance energy security and achieve net zero emissions by 2050.",
+    "content": "The Energy Security Strategy sets out ambitious targets for renewable energy, nuclear power, and energy efficiency. The strategy includes significant investment in offshore wind, nuclear new build, and carbon capture technologies.",
+    "url": "https://www.gov.uk/government/publications/energy-security-strategy",
+    "source": "white_paper",
+    "type": "policy"
+  },
+  {
+    "id": "spend_001",
+    "title": "Public Spending Statistics 2024",
+    "department": "HM Treasury",
+    "date": "2024-07-01",
+    "summary": "Overview of public spending trends and allocations across government departments.",
+    "content": "Total public spending in 2024 is £1.2 trillion. Key allocations include: Health £200 billion, Education £100 billion, Defence £50 billion, and Infrastructure £30 billion. Spending has increased by 3% compared to the previous year.",
+    "url": "https://www.gov.uk/government/statistics/public-spending",
+    "source": "public_spending",
+    "type": "data"
+  },
+  {
+    "id": "spend_002",
+    "title": "Departmental Spending Allocations",
+    "department": "HM Treasury",
+    "date": "2024-06-15",
+    "summary": "Breakdown of spending by government department for the fiscal year.",
+    "content": "Departmental spending allocations: Department of Health and Social Care: £200bn, Department for Education: £100bn, Ministry of Defence: £50bn, Home Office: £30bn, Department for Transport: £25bn.",
+    "url": "https://www.gov.uk/government/statistics/departmental-spending",
+    "source": "public_spending",
+    "type": "data"
+  }
+]

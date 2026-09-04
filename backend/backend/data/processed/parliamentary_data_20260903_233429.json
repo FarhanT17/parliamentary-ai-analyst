@@ -1,0 +1,150 @@
+[
+  {
+    "id": "hansard_001",
+    "title": "Prime Minister's Questions",
+    "date": "2024-09-15",
+    "speaker": "Rishi Sunak",
+    "content": "The government is committed to economic growth and lowering inflation. We have made significant progress on the cost of living crisis.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-09-15/pmqs",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_002",
+    "title": "Budget Debate",
+    "date": "2024-09-10",
+    "speaker": "Jeremy Hunt",
+    "content": "Today I present a budget for long-term growth. We are cutting national insurance, supporting business investment, and taking decisive action to reduce inflation.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-09-10/budget",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_003",
+    "title": "Climate Change Debate",
+    "date": "2024-09-05",
+    "speaker": "Grant Shapps",
+    "content": "The UK is a world leader in renewable energy. We are investing in offshore wind, nuclear power, and carbon capture. Our goal is to achieve net zero by 2050.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-09-05/climate",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_004",
+    "title": "Health and Social Care Debate",
+    "date": "2024-09-01",
+    "speaker": "Victoria Atkins",
+    "content": "The NHS is our priority. We are investing £2.4 billion in modernising hospitals and increasing NHS capacity.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-09-01/health",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "hansard_005",
+    "title": "Education Reform Debate",
+    "date": "2024-08-28",
+    "speaker": "Gillian Keegan",
+    "content": "Education is the key to opportunity. We are transforming our education system with new curriculum reforms, investment in teacher training, and a focus on skills for the future economy.",
+    "house": "Commons",
+    "url": "https://hansard.parliament.uk/commons/2024-08-28/education",
+    "source": "hansard",
+    "type": "debate"
+  },
+  {
+    "id": "leg_001",
+    "title": "Data Protection Act 2018",
+    "year": "2018",
+    "summary": "The Data Protection Act 2018 is the UK's implementation of GDPR, protecting personal data and privacy.",
+    "url": "https://www.legislation.gov.uk/ukpga/2018/12",
+    "source": "legislation",
+    "type": "legislation"
+  },
+  {
+    "id": "leg_002",
+    "title": "Climate Change Act 2008",
+    "year": "2008",
+    "summary": "The Climate Change Act 2008 sets legally binding targets for reducing greenhouse gas emissions and achieving net zero by 2050.",
+    "url": "https://www.legislation.gov.uk/ukpga/2008/27",
+    "source": "legislation",
+    "type": "legislation"
+  },
+  {
+    "id": "leg_003",
+    "title": "Equality Act 2010",
+    "year": "2010",
+    "summary": "The Equality Act 2010 consolidates anti-discrimination laws in the UK.",
+    "url": "https://www.legislation.gov.uk/ukpga/2010/15",
+    "source": "legislation",
+    "type": "legislation"
+  },
+  {
+    "id": "pq_001",
+    "date": "2024-09-01",
+    "mp": "Keir Starmer",
+    "department": "Cabinet Office",
+    "question": "What steps is the government taking to ensure the UK remains a global leader in artificial intelligence regulation?",
+    "answer": "The UK is committed to developing a pro-innovation regulatory framework for AI.",
+    "answer_by": "Cabinet Office",
+    "source": "parliamentary_questions",
+    "type": "question"
+  },
+  {
+    "id": "pq_002",
+    "date": "2024-09-05",
+    "mp": "David Lammy",
+    "department": "Foreign Office",
+    "question": "What actions are being taken to strengthen diplomatic relations with European partners?",
+    "answer": "The UK is rebuilding trust with European partners through the EU-UK Cooperation Agreement.",
+    "answer_by": "Foreign Office",
+    "source": "parliamentary_questions",
+    "type": "question"
+  },
+  {
+    "id": "com_001",
+    "title": "The Future of AI Regulation",
+    "committee": "Science and Technology Committee",
+    "date": "2024-08-15",
+    "summary": "The report examines the UK's approach to AI regulation, recommending a balanced framework.",
+    "content": "The Science and Technology Committee report on AI regulation recommends a principles-based approach.",
+    "url": "https://committees.parliament.uk/publications/12345",
+    "source": "select_committee",
+    "type": "report"
+  },
+  {
+    "id": "wp_001",
+    "title": "AI Regulation: A Pro-Innovation Approach",
+    "department": "Department for Science, Innovation and Technology",
+    "date": "2024-07-01",
+    "summary": "The UK's approach to AI regulation is based on safety, transparency, fairness, accountability, and contestability.",
+    "content": "The UK government's approach to AI regulation is based on five core principles.",
+    "url": "https://www.gov.uk/government/publications/ai-regulation",
+    "source": "white_paper",
+    "type": "policy"
+  },
+  {
+    "id": "wp_002",
+    "title": "Energy Security Strategy",
+    "department": "Department for Energy Security and Net Zero",
+    "date": "2024-06-15",
+    "summary": "The strategy outlines the UK's plan to enhance energy security and achieve net zero by 2050.",
+    "content": "The Energy Security Strategy sets out ambitious targets for renewable energy, nuclear power, and energy efficiency.",
+    "url": "https://www.gov.uk/government/publications/energy-security-strategy",
+    "source": "white_paper",
+    "type": "policy"
+  },
+  {
+    "id": "spend_001",
+    "title": "Public Spending Statistics 2024",
+    "department": "HM Treasury",
+    "date": "2024-07-01",
+    "summary": "Total public spending in 2024 is £1.2 trillion.",
+    "content": "Total public spending in 2024 is £1.2 trillion. Key allocations include: Health £200 billion, Education £100 billion, Defence £50 billion, and Infrastructure £30 billion.",
+    "url": "https://www.gov.uk/government/statistics/public-spending",
+    "source": "public_spending",
+    "type": "data"
+  }
+]

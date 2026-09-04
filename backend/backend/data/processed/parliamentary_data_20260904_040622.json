@@ -1,0 +1,299 @@
+[
+  {
+    "id": "tv_001",
+    "title": "Prime Minister's Questions",
+    "start_date": "2024-09-15T12:00:00",
+    "end_date": "2024-09-15T12:30:00",
+    "location": "Commons Chamber",
+    "house": "House of Commons",
+    "source": "tv_programmes",
+    "type": "broadcast"
+  },
+  {
+    "id": "tv_002",
+    "title": "Budget Debate",
+    "start_date": "2024-09-10T14:00:00",
+    "end_date": "2024-09-10T17:00:00",
+    "location": "Commons Chamber",
+    "house": "House of Commons",
+    "source": "tv_programmes",
+    "type": "broadcast"
+  },
+  {
+    "id": "CD:2024-09-15:1234",
+    "title": "Finance Bill: Third Reading",
+    "date": "2024-09-15",
+    "source": "commons_divisions",
+    "type": "division"
+  },
+  {
+    "id": "CD:2024-09-10:1235",
+    "title": "Climate Change Bill: New Clause",
+    "date": "2024-09-10",
+    "source": "commons_divisions",
+    "type": "division"
+  },
+  {
+    "id": "oqt_001",
+    "title": "Commons Oral Parliamentary Question Time for 2024-09-15",
+    "date": "2024-09-15T10:15:00",
+    "answer_date_time": "2024-09-15T10:15:00",
+    "question_type": "Substantive",
+    "answer_body": "Cabinet Office",
+    "answer_target": "the Minister for the Cabinet Office",
+    "location": "House of Commons chamber",
+    "source": "commons_oral_question_times",
+    "type": "question_time"
+  },
+  {
+    "id": "901258",
+    "question_text": "What steps she is taking with Cabinet colleagues to support the participation of women and girls in sport.",
+    "answer_date": "2024-09-09",
+    "answering_body": "Women and Equalities",
+    "tabling_member": "Kim Leadbeater",
+    "constituency": "Batley and Spen",
+    "question_type": "Substantive",
+    "location": "House of Commons chamber",
+    "source": "commons_oral_questions",
+    "type": "question"
+  },
+  {
+    "id": "26990",
+    "title": "House of Commons Tabled Parliamentary Question 2024/25 26990",
+    "question_text": "To ask the Secretary of State for Transport, how many public electric vehicle charging points were classified as (a) standard, (b) standard plus, (c) rapid and (d) ultra-rapid in each of the last 10 years.",
+    "answer_date": "2024-09-07",
+    "answering_body": "Department for Transport",
+    "date_tabled": "2024-09-03",
+    "tabling_member": "Mr Richard Holden",
+    "source": "commons_written_questions",
+    "type": "question"
+  },
+  {
+    "id": "er_001",
+    "constituency": "Aberdeen North",
+    "election": "2010 General Election",
+    "electorate": "64808",
+    "turnout": "37701",
+    "majority": "8361",
+    "result": "Lab Hold",
+    "source": "election_results",
+    "type": "election"
+  },
+  {
+    "id": "el_001",
+    "label": "2024 General Election",
+    "date": "2024-07-04",
+    "election_type": "General Election",
+    "source": "elections",
+    "type": "election_metadata"
+  },
+  {
+    "id": "hcd_001",
+    "title": "Prime Minister's Questions",
+    "date": "2024-09-15",
+    "content": "The government is committed to economic growth and lowering inflation.",
+    "source": "hansard_commons_documents",
+    "type": "hansard"
+  },
+  {
+    "id": "hcp_001",
+    "title": "Commons Chamber Proceedings",
+    "date": "2024-09-15",
+    "content": "Proceedings of the House of Commons on 15 September 2024.",
+    "source": "hansard_commons_proceedings",
+    "type": "hansard"
+  },
+  {
+    "id": "hld_001",
+    "title": "Lords Debate on Climate Change",
+    "date": "2024-09-15",
+    "content": "The House of Lords debated climate change policy.",
+    "source": "hansard_lords_documents",
+    "type": "hansard"
+  },
+  {
+    "id": "hlp_001",
+    "title": "Lords Chamber Proceedings",
+    "date": "2024-09-15",
+    "content": "Proceedings of the House of Lords on 15 September 2024.",
+    "source": "hansard_lords_proceedings",
+    "type": "hansard"
+  },
+  {
+    "id": "lba_001",
+    "label": "Lords Bill Amendment 14688",
+    "text": "at end insert 'subject to section (Conditions of commencement).'",
+    "decision": "Withdrawn",
+    "bill_stage": "Committee",
+    "clause": "6",
+    "member": "Lord Empey",
+    "source": "lords_bill_amendments",
+    "type": "amendment"
+  },
+  {
+    "id": "HL3063",
+    "title": "House of Lords Tabled Parliamentary Question 2024/25 HL3063",
+    "question_text": "To ask His Majesty's Government how many childminders there are active (1) today, and (2) in July 2024.",
+    "answer_date": "2024-09-17",
+    "answering_body": "Department for Education",
+    "date_tabled": "2024-09-03",
+    "tabling_member": "Baroness Coffey",
+    "source": "lords_written_questions",
+    "type": "question"
+  },
+  {
+    "id": "m_001",
+    "full_name": "Ms Diane Abbott",
+    "given_name": "Diane",
+    "family_name": "Abbott",
+    "gender": "Female",
+    "party": "Labour",
+    "constituency": "Hackney North and Stoke Newington",
+    "home_page": "http://www.dianeabbott.org.uk",
+    "twitter": "https://twitter.com/HackneyAbbott",
+    "source": "members",
+    "type": "member"
+  },
+  {
+    "id": "26060",
+    "question_text": "To ask the Secretary of State for the Home Department, how many UK passports Reform Party member, George Cottrell, holds.",
+    "answer_text": "The information requested would be personal data.",
+    "answering_body": "Home Office",
+    "answering_member": "Jo White",
+    "tabling_member": "Kevin Hollinrake",
+    "date": "2026-09-01",
+    "date_of_answer": "2026-09-03",
+    "hansard_heading": "George Cottrell",
+    "source": "answered_questions",
+    "type": "answer"
+  },
+  {
+    "id": "pl_001",
+    "label": "HL Business and Order Paper 24/11/2025",
+    "publication_date": "2025-11-24",
+    "paper_number": "",
+    "source": "publication_logs",
+    "type": "publication"
+  },
+  {
+    "id": "CBP-10986",
+    "title": "Why does the UK not have a written constitution?",
+    "abstract": "The UK does not have a codified written constitution. What are the arguments for and against having one?",
+    "description": "This briefing examines the current status of the United Kingdom constitution.",
+    "date": "2026-09-03",
+    "publisher": "House of Commons Library",
+    "section": "Parliament and Constitution Centre",
+    "sub_type": "Commons Briefing papers",
+    "topics": [
+      "Constitution",
+      "Parliament"
+    ],
+    "source": "research_briefings",
+    "type": "briefing"
+  },
+  {
+    "id": "th_001",
+    "pref_label": "10 Downing Street",
+    "class": "ID",
+    "broader": "Official residences",
+    "is_preferred": true,
+    "exact_matches": [],
+    "related_terms": [
+      "Prime Minister",
+      "11 Downing Street"
+    ],
+    "source": "thesaurus",
+    "type": "term"
+  },
+  {
+    "id": "ELD001",
+    "title": "Sample Commons Written Question",
+    "question_text": "To ask the Secretary of State for Transport, how many public electric vehicle charging points were classified as (a) standard, (b) standard plus, (c) rapid and (d) ultra-rapid in each of the last 10 years.",
+    "answer_date": "2024-09-07",
+    "answering_body": "Department for Transport",
+    "date_tabled": "2024-09-03",
+    "tabling_member": "Mr Richard Holden",
+    "source": "eld_commons_written_questions",
+    "type": "question"
+  },
+  {
+    "id": "HL3063",
+    "title": "House of Lords Tabled Parliamentary Question 2024/25 HL3063",
+    "question_text": "To ask His Majesty's Government how many childminders there are active (1) today, and (2) in July 2024.",
+    "answer_date": "2024-09-17",
+    "answering_body": "Department for Education",
+    "date_tabled": "2024-09-03",
+    "tabling_member": "Baroness Coffey",
+    "source": "eld_lords_written_questions",
+    "type": "question"
+  },
+  {
+    "id": "26060",
+    "question_text": "To ask the Secretary of State for the Home Department, how many UK passports Reform Party member, George Cottrell, holds.",
+    "answer_text": "The information requested would be personal data.",
+    "answering_body": "Home Office",
+    "answering_member": "Jo White",
+    "tabling_member": "Kevin Hollinrake",
+    "date": "2026-09-01",
+    "date_of_answer": "2026-09-03",
+    "hansard_heading": "George Cottrell",
+    "source": "eld_answered_questions",
+    "type": "answer"
+  },
+  {
+    "id": "CBP-10986",
+    "title": "Why does the UK not have a written constitution?",
+    "abstract": "The UK does not have a codified written constitution. What are the arguments for and against having one?",
+    "description": "This briefing examines the current status of the United Kingdom constitution.",
+    "date": "2026-09-03",
+    "publisher": "House of Commons Library",
+    "section": "Parliament and Constitution Centre",
+    "sub_type": "Commons Briefing papers",
+    "topics": [
+      "Constitution",
+      "Parliament"
+    ],
+    "source": "eld_research_briefings",
+    "type": "briefing"
+  },
+  {
+    "id": "172",
+    "full_name": "Ms Diane Abbott",
+    "given_name": "Diane",
+    "family_name": "Abbott",
+    "gender": "Female",
+    "party": "Labour",
+    "constituency": "Hackney North and Stoke Newington",
+    "home_page": "http://www.dianeabbott.org.uk",
+    "twitter": "https://twitter.com/HackneyAbbott",
+    "source": "eld_members",
+    "type": "member"
+  },
+  {
+    "id": "eld_er_001",
+    "constituency": "Aberdeen North",
+    "election": "2010 General Election",
+    "electorate": "64808",
+    "turnout": "37701",
+    "majority": "8361",
+    "result": "Lab Hold",
+    "source": "eld_election_results",
+    "type": "election"
+  },
+  {
+    "id": "eld_hc_001",
+    "title": "Commons Chamber Proceedings",
+    "date": "2024-09-15",
+    "content": "Proceedings of the House of Commons on 15 September 2024.",
+    "source": "eld_hansard_commons",
+    "type": "hansard"
+  },
+  {
+    "id": "eld_hl_001",
+    "title": "Lords Chamber Proceedings",
+    "date": "2024-09-15",
+    "content": "Proceedings of the House of Lords on 15 September 2024.",
+    "source": "eld_hansard_lords",
+    "type": "hansard"
+  }
+]
