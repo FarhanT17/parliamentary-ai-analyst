@@ -1,31 +1,32 @@
-# render.yaml - Place this in the ROOT directory (same level as backend/ and frontend/)
-
+# Exported from Render on 2026-09-04T08:07:19Z
+version: "1"
 services:
-  - type: web
-    name: parliamentary-ai-backend
-    runtime: python
-    repo: https://github.com/FarhanT17/parliamentary-ai-analyst
-    plan: free
-    region: oregon
-    buildCommand: |
-      cd backend
-      pip install --no-cache-dir -r requirements.txt
-    startCommand: |
-      cd backend
-      uvicorn app.main:app --host 0.0.0.0 --port $PORT
-    envVars:
-      - key: OPENAI_API_KEY
-        sync: false
-      - key: COLLECT_FRESH_DATA
-        value: false
-      - key: USE_SAMPLE_FALLBACK
-        value: true
-      - key: CORS_ORIGINS
-        value: https://parliamentary-ai-analyst.vercel.app,http://localhost:3000,http://localhost:5173
-      - key: PYTHON_VERSION
-        value: 3.11.0
-      - key: PARLIAMENT_MIN_EVIDENCE_CHARS
-        value: 80
-      - key: PARLIAMENT_FETCH_DETAIL_PAGES
-        value: false
-    healthCheckPath: /health
+- type: web
+  name: parliamentary-ai-backend
+  runtime: python
+  repo: https://github.com/FarhanT17/parliamentary-ai-analyst
+  plan: free
+  envVars:
+  - key: OPENAI_API_KEY
+    sync: false
+  - key: PARLIAMENT_FETCH_DETAIL_PAGES
+    sync: false
+  - key: PARLIAMENT_MIN_EVIDENCE_CHARS
+    sync: false
+  - key: PYTHON_VERSION
+    sync: false
+  - key: CORS_ORIGINS
+    sync: false
+  - key: USE_SAMPLE_FALLBACK
+    sync: false
+  - key: COLLECT_FRESH_DATA
+    sync: false
+  region: oregon
+  buildCommand: |
+    cd backend
+    pip install --no-cache-dir -r requirements.txt
+  startCommand: |
+    cd backend
+    uvicorn app.main:app --host 0.0.0.0 --port $PORT
+  healthCheckPath: /health
+  autoDeployTrigger: commit
