@@ -14,6 +14,22 @@
 
 </div>
 
+## 📸 Screenshots
+
+<div align="center">
+
+### Home Page
+![Home Page](./Parlimentary_ai_analyst.png)
+
+*The main interface where users can ask questions about UK Parliament*
+
+### Answer Example
+![Answer Example](./Parlimentary_ai_analyst_1.png)
+
+*Example response showing source-grounded answer with citations*
+
+</div>
+
 ---
 
 ## 📖 Overview
