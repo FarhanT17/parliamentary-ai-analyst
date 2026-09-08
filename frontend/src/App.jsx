@@ -12,6 +12,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [isOnline, setIsOnline] = useState(false);
+  const [questionHistory, setQuestionHistory] = useState([]);
   const [stats, setStats] = useState({
     questionsAsked: 0,
     retrievedSources: 0,
@@ -19,6 +20,19 @@ function App() {
     totalDocuments: 0
   });
 
+  // Suggested questions for users
+  const suggestedQuestions = [
+    "What is the role of the Prime Minister?",
+    "How does Parliament make laws?",
+    "What is the House of Commons?",
+    "How does the NHS work?",
+    "What is the UK's approach to climate change?",
+    "What is the Brexit agreement?",
+    "How is the economy doing?",
+    "What are the UK's immigration policies?",
+  ];
+
+  // Check API health on load and periodically
   useEffect(() => {
     const checkHealth = async () => {
       try {
@@ -34,6 +48,8 @@ function App() {
   }, []);
 
   const handleSearch = async (query) => {
+    if (!query.trim()) return;
+    
     setLoading(true);
     setError(null);
     setAnswer(null);
@@ -43,6 +59,13 @@ function App() {
       
       setAnswer(response.data);
       
+      // Update question history
+      setQuestionHistory(prev => [
+        { query, timestamp: new Date(), answer: response.data.answer },
+        ...prev
+      ].slice(0, 10));
+      
+      // Update stats
       if (response.data.data_status) {
         setStats(prev => ({
           ...prev,
@@ -64,11 +87,16 @@ function App() {
     }
   };
 
+  const handleSuggestedQuestion = (question) => {
+    handleSearch(question);
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-blue-50 via-gray-50 to-white">
       <Header isOnline={isOnline} />
 
       <main className="flex-1 container mx-auto px-4 py-8 max-w-6xl">
+        {/* Hero Section */}
         <section className="text-center mb-10 animate-fade-in">
           <div className="inline-block mb-4 px-4 py-1.5 bg-primary/10 text-primary text-sm font-medium rounded-full">
             🏛️ UK Parliament Hackathon 2026
@@ -82,6 +110,7 @@ function App() {
           </p>
         </section>
 
+        {/* Stats Banner */}
         <div className="flex flex-wrap justify-center gap-6 mb-8 text-sm">
           <div className="flex items-center gap-2 bg-white/70 backdrop-blur-sm px-4 py-2 rounded-lg shadow-sm">
             <span className={`w-2 h-2 rounded-full ${isOnline ? 'bg-green-500' : 'bg-red-500'}`}></span>
@@ -101,10 +130,29 @@ function App() {
           </div>
         </div>
 
+        {/* Search */}
         <div className="glass-effect rounded-2xl shadow-xl p-6 md:p-8 border border-white/50">
           <SearchBar onSearch={handleSearch} loading={loading} />
         </div>
 
+        {/* Suggested Questions */}
+        <div className="mt-6 max-w-3xl mx-auto">
+          <p className="text-xs text-gray-400 text-center mb-3">Try asking:</p>
+          <div className="flex flex-wrap justify-center gap-2">
+            {suggestedQuestions.map((question, index) => (
+              <button
+                key={index}
+                onClick={() => handleSuggestedQuestion(question)}
+                disabled={loading}
+                className="px-3 py-1.5 text-xs bg-white/80 hover:bg-white text-gray-700 border border-gray-200 rounded-full hover:shadow-sm transition-all hover:border-primary/30 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {question}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Error */}
         {error && (
           <div className="mt-6 max-w-3xl mx-auto animate-fade-in">
             <div className="bg-red-50 border border-red-200 text-red-700 px-6 py-4 rounded-xl">
@@ -121,6 +169,7 @@ function App() {
           </div>
         )}
 
+        {/* Answer */}
         <ResultCard 
           answer={answer?.answer} 
           sources={answer?.sources} 
@@ -130,6 +179,41 @@ function App() {
           loading={loading}
         />
 
+        {/* Question History */}
+        {questionHistory.length > 0 && !loading && (
+          <div className="mt-8 max-w-3xl mx-auto animate-fade-in-up">
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-xs font-medium text-gray-500 flex items-center gap-1.5">
+                <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                Recent Questions
+              </span>
+              {questionHistory.length > 5 && (
+                <button 
+                  onClick={() => setQuestionHistory(questionHistory.slice(0, 3))}
+                  className="text-xs text-primary hover:text-primary/80"
+                >
+                  Show less
+                </button>
+              )}
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {questionHistory.slice(0, 5).map((item, index) => (
+                <button
+                  key={index}
+                  onClick={() => handleSuggestedQuestion(item.query)}
+                  disabled={loading}
+                  className="px-3 py-1.5 text-xs bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-full transition-colors disabled:opacity-50 disabled:cursor-not-allowed group"
+                >
+                  {item.query.length > 40 ? item.query.slice(0, 40) + '...' : item.query}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Sample data note */}
         {answer?.is_sample_data && (
           <div className="mt-4 max-w-3xl mx-auto text-center">
             <p className="text-sm text-gray-400">

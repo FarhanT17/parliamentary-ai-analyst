@@ -22,7 +22,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from app.config import Config
-from app.real_rag_engine_light import RealRAGEngine
+from app.real_rag_engine import RealRAGEngine
 
 
 # ---------------------------------------------------------------------------

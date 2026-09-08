@@ -3,14 +3,19 @@ import { useState } from 'react';
 const ResultCard = ({ answer, sources, evidence_count, is_sample, is_demo, loading }) => {
   const [copied, setCopied] = useState(false);
 
+  // Improved loading skeleton with shimmer effect
   if (loading) {
     return (
-      <div className="w-full max-w-3xl mx-auto mt-8 animate-pulse">
+      <div className="w-full max-w-3xl mx-auto mt-8">
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
-          <div className="h-6 bg-gray-200 rounded w-3/4 mb-4"></div>
-          <div className="h-4 bg-gray-200 rounded w-full mb-2"></div>
-          <div className="h-4 bg-gray-200 rounded w-5/6 mb-2"></div>
-          <div className="h-4 bg-gray-200 rounded w-4/6"></div>
+          <div className="shimmer h-6 rounded w-3/4 mb-4"></div>
+          <div className="shimmer h-4 rounded w-full mb-2"></div>
+          <div className="shimmer h-4 rounded w-5/6 mb-2"></div>
+          <div className="shimmer h-4 rounded w-4/6"></div>
+          <div className="mt-4 flex gap-2">
+            <div className="shimmer h-6 rounded-full w-20"></div>
+            <div className="shimmer h-6 rounded-full w-24"></div>
+          </div>
         </div>
       </div>
     );
@@ -24,11 +29,13 @@ const ResultCard = ({ answer, sources, evidence_count, is_sample, is_demo, loadi
     setTimeout(() => setCopied(false), 2000);
   };
 
+  // Clean answer - remove raw Python dict strings
   const cleanAnswer = answer
     .replace(/\{[^{}]*\}/g, '')
     .replace(/\s+/g, ' ')
     .trim();
 
+  // Deduplicate sources by title or URL
   const deduplicateSources = (sourceList) => {
     if (!sourceList) return [];
     const seen = new Set();
@@ -47,9 +54,21 @@ const ResultCard = ({ answer, sources, evidence_count, is_sample, is_demo, loadi
   const uniqueSources = deduplicateSources(sources);
   const displayCount = uniqueSources.length;
 
+  // Extract domain from URL for display
+  const getDomain = (url) => {
+    if (!url) return '';
+    try {
+      const domain = new URL(url).hostname.replace('www.', '');
+      return domain;
+    } catch {
+      return '';
+    }
+  };
+
   return (
     <div className="w-full max-w-3xl mx-auto mt-8 animate-slide-up">
       <div className="bg-white rounded-xl shadow-xl border border-gray-100 overflow-hidden">
+        {/* Answer header */}
         <div className="bg-gradient-to-r from-primary/5 to-transparent px-6 py-4 border-b border-gray-100">
           <div className="flex items-center justify-between flex-wrap gap-2">
             <div className="flex items-center gap-3 flex-wrap">
@@ -72,7 +91,7 @@ const ResultCard = ({ answer, sources, evidence_count, is_sample, is_demo, loadi
               )}
               {is_sample && (
                 <span className="text-xs bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded-full">
-                  Sample data
+                  🧪 Sample Data
                 </span>
               )}
             </div>
@@ -100,10 +119,12 @@ const ResultCard = ({ answer, sources, evidence_count, is_sample, is_demo, loadi
           </div>
         </div>
 
+        {/* Answer content */}
         <div className="px-6 py-5">
           <p className="text-gray-800 text-lg leading-relaxed whitespace-pre-wrap">{cleanAnswer}</p>
         </div>
 
+        {/* Sources - with clickable links */}
         {uniqueSources && uniqueSources.length > 0 && (
           <div className="bg-gray-50 px-6 py-4 border-t border-gray-100">
             <div className="flex items-center gap-2 mb-2">
@@ -119,6 +140,8 @@ const ResultCard = ({ answer, sources, evidence_count, is_sample, is_demo, loadi
               {uniqueSources.map((source, index) => {
                 const displayName = source.type || source.source || source.title || `Source ${index + 1}`;
                 const sourceType = source.source || source.type || '';
+                const domain = getDomain(source.url);
+                
                 let colorClass = 'bg-gray-100 text-gray-700';
                 
                 if (sourceType === 'demo' || source.is_sample) {
@@ -143,20 +166,38 @@ const ResultCard = ({ answer, sources, evidence_count, is_sample, is_demo, loadi
                     href={source.url || '#'}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`text-xs px-3 py-1 rounded-full ${colorClass} hover:opacity-80 transition-opacity ${source.url ? 'cursor-pointer hover:shadow-md' : 'cursor-default'}`}
+                    className={`text-xs px-3 py-1 rounded-full ${colorClass} hover:opacity-80 transition-opacity ${source.url ? 'cursor-pointer hover:shadow-md' : 'cursor-default'} flex items-center gap-1`}
+                    title={source.url ? `View source: ${source.url}` : ''}
                   >
                     {source.title || displayName}
-                    {source.url && ' ↗'}
+                    {source.url && (
+                      <span className="text-[10px] opacity-60">
+                        {domain || '↗'}
+                      </span>
+                    )}
                   </a>
                 );
               })}
             </div>
+            {/* Trust indicator */}
+            {displayCount > 0 && (
+              <div className="mt-2 flex items-center gap-1 text-[10px] text-gray-400">
+                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+                <span>Sources from official UK Parliament websites</span>
+              </div>
+            )}
           </div>
         )}
 
+        {/* Footer */}
         <div className="px-6 py-3 bg-gray-50/50 border-t border-gray-100 flex flex-wrap justify-between items-center text-xs text-gray-400 gap-2">
           <span>Generated by Parliamentary AI Analyst</span>
-          <span>UK Parliament Hackathon 2026</span>
+          <span className="flex items-center gap-2">
+            <span className="w-1.5 h-1.5 bg-primary/50 rounded-full"></span>
+            UK Parliament Hackathon 2026
+          </span>
         </div>
       </div>
     </div>
